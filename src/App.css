@@ -129,9 +129,29 @@ a {
   font-size: large;
   border-radius: 4px;
 }
-.search-btn {
+/* .search-btn {
   width: 80px;
   height: 30px;
   margin: 15px;
-  /* border-radius: 4px; */
+  
+} */
+.search-btn {
+  background-color: #dd9266; /* A neutral green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin: 10px;
+}
+
+.search-btn:hover {
+  background-color: #e9642b; /* Darker green on hover */
+}
+
+.search-btn:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.5); /* Custom focus indicator */
 }

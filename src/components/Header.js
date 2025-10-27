@@ -12,16 +12,16 @@ const Header = () => {
       </div>
       <div className="navItems">
         <ul className="list">
-          <Link to="/">
+          <Link to="/" className="nav-link">
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <Link to="/about" className="nav-link">
             <li>About</li>
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" className="nav-link">
             <li>Contact Us</li>
           </Link>
-          <Link to="/cart">
+          <Link to="/cart" className="nav-link">
             <img
               id="cartPhoto"
               src="https://icons.veryicon.com/png/o/application/wq/shopping-cart-35.png"

@@ -1,0 +1,29 @@
+{
+  "name": "revision",
+  "version": "1.0.0",
+  "description": "for my revision",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greyhound0/revision_project.git"
+  },
+  "author": "Manas Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greyhound0/revision_project/issues"
+  },
+  "homepage": "https://github.com/greyhound0/revision_project#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.30.1"
+  }
+}

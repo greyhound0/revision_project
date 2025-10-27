@@ -1,0 +1,137 @@
+body {
+  display: block;
+  margin: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.navItems {
+  width: max-content;
+}
+
+#logo {
+  height: 150px;
+  width: 150px;
+}
+
+#cartPhoto {
+  height: 50px;
+  width: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25;
+  list-style-type: none;
+  cursor: pointer;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.list > li {
+  padding: 20px;
+  margin: 20px;
+}
+
+.restoCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.topRatedResto-btn,
+.allResto-btn {
+  background-color: #4caf50;
+  margin: 10px;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.topRatedResto-btn:hover,
+.allResto-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.topRatedResto-btn:active,
+.allResto-btn:active {
+  background-color: #3e8e41;
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.home-btn {
+  background-color: #e67850;
+  margin: 10px;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.home-btn:hover {
+  background-color: #df5624;
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.search > input {
+  height: 40px;
+  width: 350px;
+  text-align: center;
+  font-size: large;
+  border-radius: 4px;
+}
+.search-btn {
+  width: 80px;
+  height: 30px;
+  margin: 15px;
+  /* border-radius: 4px; */
+}
